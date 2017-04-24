@@ -1,0 +1,84 @@
+## this is the skeleton of all pages on in this app - it defines the basic html tags
+
+## imports
+<%! from django_mako_plus import get_template_css, get_template_js %>
+
+
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <%block name="title">
+  
+    </%block>
+    
+
+    ## add any site-wide scripts or CSS here; for example, jquery:
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    ## render the css with the same name as this page
+    ${ get_template_css(self, request, context) }
+
+  </head>
+  <body>
+
+
+
+    <%block name="content">
+      Site content goes here in sub-templates.
+    </%block>
+
+   <footer class="section section-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1><a href="/ordernow" style="color:white">Order Now</a></h1>
+            <p>Order now to be amazed by the delicious flavor of Sera MoMo!
+              <br>
+              </p>
+          </div>
+          
+           <div class="col-sm-6">
+            <p class="text-info text-right" contenteditable="False">
+              <a href="homepage" style="color:white">Home</a>&nbsp; - &nbsp;
+              <a href="/aboutus" style="color:white">AboutUs</a>&nbsp; - &nbsp;
+              <a href="/privacypolicy" style="color:white">Privacy Policy</a>&nbsp; - &nbsp;
+              <a href="/termsandconditions" style="color:white">Terms
+              and Conditions</a>&nbsp; - &nbsp;
+              <a href="/contactus" style="color:white">Contact Us</a>&nbsp; - &nbsp;
+              <a href="/Products" style="color:white">Products</a>&nbsp; - &nbsp;
+              <a href="/Description" style="color:white">Description</a>
+            </p>
+
+          <div class="col-sm-6">
+            <p class="text-info text-right">
+              <br>
+              <br>
+            </p>
+            <div class="row">
+              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                <a href="https://www.instagram.com/seramomollc/"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="https://twitter.com/search?f=tweets&q=seramomo144&src=typd"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="https://www.facebook.com/people/Sera-MoMo/100009670604927"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 hidden-xs text-right">
+                <a href="https://www.instagram.com/seramomollc/"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                <a href="https://twitter.com/search?f=tweets&q=seramomo144&src=typd"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                <a href="https://www.facebook.com/people/Sera-MoMo/100009670604927"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    ## render the JS with the same name as this page
+    ${ get_template_js(self, request, context) }
+
+  </body>
+</html>

@@ -1,0 +1,109 @@
+#id_fromEmail{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-top:-90px;
+}
+
+#id_Subject{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+#id_Message{
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.btn-contact{
+    position:absolute;
+    background-color: #18CA2A;
+    left: 247px;
+    top:195px;
+    border-radius: 2px;
+    width: 250px;
+    height:40px;
+}
+/* Mobile enabling block */
+@media (max-width: 800px) {
+
+#id_fromEmail{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-top:-90px;
+    margin-top: 20px;
+}
+
+#id_Subject{
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+#id_Message{
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.btn-success{
+    position:relative;
+    margin:auto;
+    max-width: 100%;
+
+}
+
+}
+
+

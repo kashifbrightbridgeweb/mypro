@@ -1,0 +1,159 @@
+<%inherit file="base.htm" />
+
+    <%block name="title">
+  <title>homepage</title>
+    </%block>
+
+
+<%block name="content">
+<html>
+  <head>
+  <title>Homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="Seremomo Website.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="cover">
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <img src="http://i.imgur.com/q1jHatA.png" class="navbar-brand" style="height: 300px">
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a style="color:black;" href="homepage">Home</a>
+              </li>
+              <li>
+                <a style="color:black;" href="/homepage/#ordernow">Order Now</a>
+              </li>
+              <li>
+             <a href="/Products" style="color:black">Products</a>
+            </li>
+            <li>
+             <a href="/Description" style="color:black">Description</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="cover-image" style="background-image: url('https://static.pexels.com/photos/66556/pexels-photo-66556.jpeg');"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="text-inverse">Sera MoMo</h1>
+            <p class="text-inverse">From the Himalayan cliffs to your kitchen.</p>
+            <br>
+
+            <video width="560" height="315" controls>
+  <source src="/static/homepage/media/SeraMoMoVid.mp4" type="video/mp4">
+
+</video>
+<!--             <video width="560" height="315" contorls="">
+              <source src="/static/homepage/media/SeraMoMoVid.mp4" type="video/mp4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/ST8NC_titZo" frameborder="0" allowfullscreen></iframe>
+            </video> -->
+            <!-- <iframe class="headerVid" src="https://www.youtube.com/watch?v=bZr-L37nLiM"></iframe>-->
+          </div> 
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="http://i.imgur.com/41z9Yfj.jpg" class="bordertime img-responsive" style="">
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-primary">Sera MoMo</h1>
+            <h3>Our Story</h3>
+            <p>Sera MoMo brings you a taste of the Himalayas.   A recipe handed down from generation to generation in the shadow of Mt. Everest, Sera MoMo is a traditional Sherpa food, updated with farm fresh produce and grass fed meats.In 2015 "Great Quake" Sera's homeland was devastated and many family members home and livelihoods were destroyed. After the tragedy Sera founded Sera MoMo to bring awareness and raise money to help the rebuilding process in Nepal.  Sera handcrafts each dumpling, and offers a prayer, “Om Mane Padme Hung,” for the wellbeing of those who eat them, as well as those affected by the earthquake.  With every healthy, delicious bite, Sera MoMo brings you the authenticity of Sherpa food.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="text-primary" id="ordernow">Order Now</h1>
+            <h3>Sera MoMo</h3>
+            <p>Bring home the taste of authentic himalayan food with Sera MoMos. Sera MoMo's are a must bring to social gatherings, parties, family dinners and more. The brilliant zest and flavors are sure to make anyone's mouth water. Just the smell of these amazing treats will make people go running for just a little taste. The flavors and gusto of Sera MoMo's will leave anyone enchanted.
+            <br>
+            <br>
+<!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="buttonz"> 
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ETRY6KBJPEEYS">
+<table>
+<tr><td><input type="hidden" name="on0" value="Sera MoMo Menu">Sera MoMo Menu</td></tr><tr><td><select name="os0">
+  <option value="Sera MoMo (15 Meat)">Sera MoMo (15 Meat) $10.99 USD</option>
+  <option value="Sera MoMo (15 vegan/Veg)">Sera MoMo (15 vegan/Veg) $10.99 USD</option>
+  <option value="Sera MoMo Sauce">Sera MoMo Sauce $8.00 USD</option>
+  <option value="Sera MoMo Lunch Special">Sera MoMo Lunch Special $10.00 USD</option>
+  <option value="Sera MoMo Catering (per person)">Sera MoMo Catering (per person) $15.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+                <button type="submit" class="btn btn-primary btn-lg">
+                Order Now
+                </button>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+-->       <a href="/products">
+          <button type="submit" class="btn btn-primary btn-lg">
+                See our products
+                </button>
+                </a>  
+
+
+
+
+
+
+            <br>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img src="http://i.imgur.com/1ft9rxp.jpg" class="bordertime img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="http://i.imgur.com/FFwKccA.jpg" class="bordertime package-image">
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-primary">Additional Services</h1>
+            <h3>Catering</h3>
+            <p>Sera MoMo Caters! We cater for events for small events (50 people or less). Sera MoMo does many dishes including: Alu Dam(a potatoe dish), Dal Bhat(A traditional Napali dish that includes rice and lentils), Chicken and Curry and of course our classic seramomos. <a href="/contactus">contact us</a> to setup an event. </p>
+            <h3>Lunch Special Sera MoMo</h3>
+            <p>Local businesses of Boise can also order it for lunch, we deliver cooked sera MoMo for lunch in business office's with a minimum of 5 orders of Sera MoMo.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+</body></html>
+</%block>

@@ -1,0 +1,29 @@
+.bordertime { 
+   border:1px solid #021a40;
+   	height:400px;
+	width: 300px;  
+	margin-left:100px
+}
+
+
+@media (max-width: 500px){
+.bordertime{
+  width:50%;
+  height:250px;
+  position:auto;
+  right:100px;
+}
+
+.buttonz{
+  position:auto;
+  width:50%;	
+}
+
+}
+
+.headerVid{
+  width:600px; 
+  height:350px; 
+  /*margin-top:100px;*/
+  z-index: 2000000000000000000000000000000000000000000000000000000;
+}
